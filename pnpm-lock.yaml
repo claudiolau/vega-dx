@@ -11,6 +11,9 @@ devDependencies:
   tsup:
     specifier: ^8.0.2
     version: 8.0.2(typescript@5.4.3)
+  typedocs:
+    specifier: ^0.6.7
+    version: 0.6.7
   typescript:
     specifier: ^5.4.3
     version: 5.4.3
@@ -844,6 +847,12 @@ packages:
     engines: {node: 14 || >=16.14}
     dev: true
 
+  /marked@0.7.0:
+    resolution: {integrity: sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==}
+    engines: {node: '>=0.10.0'}
+    hasBin: true
+    dev: true
+
   /merge-stream@2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
     dev: true
@@ -1169,6 +1178,19 @@ packages:
     transitivePeerDependencies:
       - supports-color
       - ts-node
+    dev: true
+
+  /typedocs@0.6.7:
+    resolution: {integrity: sha512-ZWpgwfPyJoqpLVUX+XdOqQLGcZJneSIWDLSlKt0ItkGeFrz2BFPIr38/mfR11Yw50mmPInkd4MC0KLU7PV+XUA==}
+    dependencies:
+      marked: 0.7.0
+      typescript: 3.2.4
+    dev: true
+
+  /typescript@3.2.4:
+    resolution: {integrity: sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /typescript@5.4.3:
