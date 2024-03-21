@@ -1,4 +1,4 @@
-import { IName } from "./types";
+import type { IName } from "./types";
 export function hello(name: IName) {
-  return `Hello ${name}!`;
+	return `Hello ${name}!`;
 }

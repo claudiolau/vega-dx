@@ -29,12 +29,15 @@
   ],
   "scripts": {
     "build": "tsup",
+    "docs": "typedoc",
+    "format": "biome check --apply-unsafe ./src",
     "dev": "tsup --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "1.6.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
   }
