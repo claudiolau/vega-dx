@@ -1,5 +1,2 @@
-import { IName } from "./types";
-
-export function hello(name: IName) {
-  return `Hello ${name}!`;
-}
+export * from "./hello";
+export * from "./types";

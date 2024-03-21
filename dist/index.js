@@ -1,4 +1,4 @@
-// src/index.ts
+// src/hello.ts
 function hello(name) {
   return `Hello ${name}!`;
 }
