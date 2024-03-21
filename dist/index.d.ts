@@ -1,3 +1,5 @@
-declare function hello(name: string): string;
+type IName = string;
+
+declare function hello(name: IName): string;
 
 export { hello };
