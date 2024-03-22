@@ -29,13 +29,21 @@
   ],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "format": "biome check --apply-unsafe ./src",
+    "dev": "tsup --watch",
+    "plop": "plop"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "1.6.1",
+    "plop": "^4.0.1",
     "tsup": "^8.0.2",
+    "typedocs": "^0.6.7",
     "typescript": "^5.4.3"
   }
 }
