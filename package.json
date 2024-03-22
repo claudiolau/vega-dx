@@ -29,7 +29,6 @@
   ],
   "scripts": {
     "build": "tsup",
-    "docs": "typedoc",
     "format": "biome check --apply-unsafe ./src",
     "dev": "tsup --watch"
   },
