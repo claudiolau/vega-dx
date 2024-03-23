@@ -16,7 +16,7 @@ To install repo from source you need pnpm or npm.
 pnpm install
 ```
 
-## Symlink
+## 🔗 Symlink
 
 ```bash
 pnpm link <dir>
@@ -34,7 +34,7 @@ Consider cross-file system links for local development to avoid unnecessary libr
 pnpm run build
 ```
 
-This will output dist.
+This will output dist folder.
 
 ## 📚 Documentation
 
