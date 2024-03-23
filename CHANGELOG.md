@@ -1,5 +1,11 @@
 # vega-dx
 
+## 1.0.8
+
+### Patch Changes
+
+- update publish configs
+
 ## 1.0.7
 
 ### Patch Changes
