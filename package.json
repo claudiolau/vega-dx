@@ -35,6 +35,7 @@
     "build": "tsup",
     "changeset": "changeset",
     "version-package": "changeset version",
+    "release": "pnpm run build && changeset publish",
     "test": "jest"
   },
   "publishConfig": {
