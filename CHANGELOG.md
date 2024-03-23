@@ -1,5 +1,11 @@
 # vega-dx
 
+## 1.0.10
+
+### Patch Changes
+
+- [#12](https://github.com/claudiolau/vega-dx/pull/12) [`a958884`](https://github.com/claudiolau/vega-dx/commit/a9588849cf49725382c7b532a915e037195f1dd5) Thanks [@claudiolau](https://github.com/claudiolau)! - resolve breaking script
+
 ## 1.0.9
 
 ### Patch Changes
