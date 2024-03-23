@@ -1,5 +1,11 @@
 # vega-dx
 
+## 1.0.7
+
+### Patch Changes
+
+- [#5](https://github.com/claudiolau/vega-dx/pull/5) [`fe2e1cd`](https://github.com/claudiolau/vega-dx/commit/fe2e1cdd7bdffe7dcfd29eb7f511e9d4c3216d2a) Thanks [@claudiolau](https://github.com/claudiolau)! - added config for github
+
 ## 1.0.6
 
 ### Patch Changes
