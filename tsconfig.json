@@ -6,6 +6,6 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true
-  }
+  },
+  "exclude": ["dist", "node_modules"]
 }
-
