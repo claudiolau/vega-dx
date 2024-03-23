@@ -1,6 +1,6 @@
 {
   "name": "vega-dx",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "type": "module",
   "exports": {
@@ -37,7 +37,7 @@
     "release": "pnpm run build && changeset publish"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [],
   "author": "",

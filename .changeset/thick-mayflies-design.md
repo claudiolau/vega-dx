@@ -2,4 +2,4 @@
 "vega-dx": patch
 ---
 
-adding in changeset
+update publish configs
