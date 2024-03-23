@@ -24,18 +24,19 @@ jobs:
           node-version: 18.x
           registry-url: "https://npm.pkg.github.com"
 
-      # - uses: pnpm/action-setup@v2
-      #   name: Install pnpm
-      #   with:
-      #     version: 8
-      #
-      # - name: Install
-      #   run: pnpm install
-      #
-      # - name: Create Release Pull Request or Publish to npm
-      #   id: changesets
-      #   uses: changesets/action@v1
-      #   with:
-      #     publish: pnpm release
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.gh_TOKEN }}
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        with:
+          version: 8
+
+      - name: Install
+        run: pnpm install
+
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: pnpm release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
