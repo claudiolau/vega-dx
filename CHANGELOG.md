@@ -1,5 +1,11 @@
 # vega-dx
 
+## 1.0.9
+
+### Patch Changes
+
+- [#10](https://github.com/claudiolau/vega-dx/pull/10) [`f480c2c`](https://github.com/claudiolau/vega-dx/commit/f480c2c94c1f49399e073cd44ac346f06864e2fe) Thanks [@claudiolau](https://github.com/claudiolau)! - update version
+
 ## 1.0.8
 
 ### Patch Changes
