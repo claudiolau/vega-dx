@@ -1,6 +1,7 @@
 # vega-dx
 
 [![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)](https://www.typescriptlang.org/)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 Typescript library built with Tsup with fully automated releasing. Powered by [esbuild](https://github.com/evanw/esbuild)
 
