@@ -23,6 +23,9 @@ devDependencies:
   commitizen:
     specifier: ^4.3.0
     version: 4.3.0(@types/node@20.11.30)(typescript@5.4.3)
+  cz-git:
+    specifier: ^1.9.0
+    version: 1.9.0
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -2284,6 +2287,11 @@ packages:
     transitivePeerDependencies:
       - '@types/node'
       - typescript
+    dev: true
+
+  /cz-git@1.9.0:
+    resolution: {integrity: sha512-xxqJwVS4MseVXLOlIK6w97WSHlo14BaOmhO3H6qB0H2Q5Kf3URMwJuYbInq1GxAVT14XLUZBhMy/3Di+lux/Cg==}
+    engines: {node: '>=v12.20.0'}
     dev: true
 
   /data-view-buffer@1.0.1:
