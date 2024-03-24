@@ -1,5 +1,11 @@
 # vega-dx
 
+## 1.0.11
+
+### Patch Changes
+
+- [#16](https://github.com/claudiolau/vega-dx/pull/16) [`a48e9ae`](https://github.com/claudiolau/vega-dx/commit/a48e9ae27b52c541cb1346e106aedbe0873d7b9d) Thanks [@claudiolau](https://github.com/claudiolau)! - update pre-commit hooks
+
 ## 1.0.10
 
 ### Patch Changes
