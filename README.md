@@ -16,6 +16,8 @@ pnpm install
 
 ## 🔗 Symlink
 
+Consider cross-file system links for local development to avoid unnecessary library packaging.
+
 ```bash
 pnpm link <dir>
 pnpm link --global <package>
@@ -23,8 +25,6 @@ pnpm link --global <package>
 pnpm unlink <dir>
 pnpm unlink --global <package>
 ```
-
-Consider cross-file system links for local development to avoid unnecessary library packaging.
 
 ## 📖 Build
 
