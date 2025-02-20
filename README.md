@@ -41,3 +41,17 @@ pnpm dlx typedoc
 ```
 
 This will output docs for this project.
+
+## Development
+
+```bash
+pnpm run plop
+```
+
+Micro-Generator will create a file which will be useful to enforce a consistent coding pattern.
+
+```bash
+pnpm run changeset
+```
+
+Run command to bump version.
