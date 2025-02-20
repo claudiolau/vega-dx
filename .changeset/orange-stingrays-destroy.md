@@ -2,4 +2,4 @@
 "vega-dx": patch
 ---
 
-test
+test-run
