@@ -1,5 +1,11 @@
 # vega-dx
 
+## 1.0.15
+
+### Patch Changes
+
+- [#29](https://github.com/claudiolau/vega-dx/pull/29) [`3f96d7d`](https://github.com/claudiolau/vega-dx/commit/3f96d7d2fb7a973b6763587d9a9ffd7f9a84b4e9) Thanks [@claudiolau](https://github.com/claudiolau)! - test-run
+
 ## 1.0.14
 
 ### Patch Changes
